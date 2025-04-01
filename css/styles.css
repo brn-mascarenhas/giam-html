@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('..css/fonts/Inter_18pt-Regular.ttf') format('ttf');
+    font-weigth: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 350px;
+}
+
+.logo h2 {
+    color: #1e2a5a;
+    font-size: 45px;
+}
+
+.login-box h1 {
+    font-size: 28px;
+    color: #1e2a5a;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-top: 5px;
+    background-color: #f8f9fa;
+}
+
+.btn {
+    width: 100%;
+    background-color: #1e2a5a;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #162040;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1e2a5a;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
